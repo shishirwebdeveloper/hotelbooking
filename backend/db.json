@@ -1,0 +1,1 @@
+{"hotels":[{"id":"1","name":"Hotel Sunshine","location":"Beachfront","price":500,"rooms":20},{"id":"2","name":"Mountain Retreat","location":"Mountain","price":800,"rooms":15},{"id":"3","name":"Hotel Moon","location":"Moon","price":600,"rooms":15}],"bookings":[{"hotelId":"2","dates":"3/3/2"},{"hotelId":"1","dates":"3/3/2"},{"hotelId":"2","dates":"3/3/2"}]}

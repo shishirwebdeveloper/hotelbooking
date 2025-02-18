@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+  h1= hotel.name
+  p Location: #{hotel.location}
+  p Price: $#{hotel.price} per night
+
+  form(action='/book', method='post')
+    input(type='hidden', name='hotelId', value=hotel.id)
+    label(for='dates') Select your dates:
+    input(type='text', id='dates', name='dates' placeholder='Enter your dates')
+    button(type='submit') Book Now

@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+  h1 Hotel Booking System
+  p Welcome to our hotel booking platform
+
+  h2 Available Hotels
+  ul
+    each hotel in hotels
+      li
+        a(href=`/book/${hotel.id}`) #{hotel.name} - #{hotel.location} - $#{hotel.price} per night
